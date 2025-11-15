@@ -1,0 +1,13 @@
+{
+  "name": "PCAPdroid - Android Build",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [],
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-gradle"
+  ],
+  "postCreateCommand": "bash /workspace/.devcontainer/post-create.sh"
+}
